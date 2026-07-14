@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="524" viewBox="0 0 850 524" font-family="Menlo, Consolas, monospace" font-size="14" xml:space="preserve">
+  <rect width="850" height="524" rx="10" fill="#101418"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="425" y="27" fill="#8b949e" text-anchor="middle" font-size="12">leafrake — which of these eighty branches are actually dead?</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> leafrake scan</text>
+    <text x="24" y="92"><tspan fill="#79c0ff">leafrake scan</tspan> — repo @ main (base: main, from well-known local branch name)</text>
+    <text x="24" y="112" fill="#8b949e">6 local branches: 1 merged, 1 squash-merged, 1 gone, 1 stale, 1 active, 1 protected</text>
+    <text x="24" y="146"><tspan fill="#7ee787">MERGED</tspan>         feature/login   c662296</text>
+    <text x="24" y="166" fill="#8b949e">  └─ tip c662296 is an ancestor of main</text>
+    <text x="24" y="190"><tspan fill="#d2a8ff">SQUASH-MERGED</tspan>  feature/search  9589656</text>
+    <text x="24" y="210" fill="#8b949e">  └─ diff vs merge-base beab06f has patch-id fa365669181220c9…</text>
+    <text x="24" y="230" fill="#8b949e">  └─ matches squash commit bfcd5d3 "Add search (#42)" (2026-02-04) on main</text>
+    <text x="24" y="250" fill="#8b949e">  └─ ahead 2 / behind 1 vs main</text>
+    <text x="24" y="274"><tspan fill="#f778ba">GONE</tspan>           fix/typo        abfc7d3</text>
+    <text x="24" y="294" fill="#8b949e">  └─ upstream origin/fix/typo was deleted on the remote</text>
+    <text x="24" y="314" fill="#8b949e">  └─ content not proven merged — ahead 1 / behind 0 vs main</text>
+    <text x="24" y="338"><tspan fill="#ffa657">STALE</tspan>          spike/old       5a41064</text>
+    <text x="24" y="358" fill="#8b949e">  └─ last commit 2024-11-20 (600 days ago), stale threshold 90 days</text>
+    <text x="24" y="378" fill="#8b949e">  └─ ahead 1 / behind 0 vs main</text>
+    <text x="24" y="402"><tspan fill="#79c0ff">ACTIVE</tspan>         feature/wip     4771488</text>
+    <text x="24" y="422" fill="#8b949e">  └─ ahead 1 / behind 0 vs main; last commit 0 days ago</text>
+    <text x="24" y="446"><tspan fill="#8b949e">PROTECTED</tspan>      main            bfcd5d3</text>
+    <text x="24" y="466" fill="#8b949e">  └─ this is the base branch</text>
+    <text x="24" y="498">deletable now: <tspan fill="#7ee787">2</tspan> (merged + squash-merged) — run <tspan fill="#79c0ff">`leafrake clean`</tspan> to review, <tspan fill="#79c0ff">`--yes`</tspan> to delete</text>
+  </g>
+</svg>
